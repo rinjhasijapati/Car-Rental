@@ -20,6 +20,17 @@ const App = () => {
     }
   },[theme]);
 
+  //AOS Initialization
+  React.useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 800,
+      easing: "ease-in-sine",
+      delay: 100,
+    });
+    AOS.refresh();
+  }, []);
+
   return (
     <div>
       <Navbar theme={theme} setTheme={setTheme}/>
@@ -30,4 +41,3 @@ const App = () => {
 
 export default App
 
-//38:21

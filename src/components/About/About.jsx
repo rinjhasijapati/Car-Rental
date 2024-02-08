@@ -3,7 +3,7 @@ import CarPng from '../../assets/car1.png';
 
 const About = () => {
   return (
-    <div className='dark:bg-black dark:text-white sm:min-h-[600px] sm:grid sm:place-items-center duration-300'>
+    <div className='dark:bg-black dark:text-white bg-slate-100 sm:min-h-[600px] sm:grid sm:place-items-center duration-300'>
       <div className='container'>
         <div className='grid grid-cols-1 sm:grid-cols-2 place-items-center'>
           <div data-aos="slide-right" data-aos-duration="1500">
@@ -29,7 +29,7 @@ const About = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
                 tempora.
               </p>
-              <button data-aos="fade-up" className='button-outline text-white'>
+              <button data-aos="fade-up" className='button-outline dark:text-white'>
                 Get Started
               </button>
             </div>

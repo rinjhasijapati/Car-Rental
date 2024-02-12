@@ -7,6 +7,7 @@ import About from './components/About/About';
 import Services from './components/Services/Services';
 import CarList from './components/CarList/CarList';
 import Testimonial from './components/Testimonial/Testimonial';
+import AppStoreBanner from './components/AppStoreBanner/AppStoreBanner';
 
 const App = () => {
   //Dark Mode Feature
@@ -43,6 +44,7 @@ const App = () => {
       <Services />
       <CarList />
       <Testimonial />
+      <AppStoreBanner />
     </div>
   )
 }

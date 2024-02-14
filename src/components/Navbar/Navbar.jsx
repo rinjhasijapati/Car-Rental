@@ -1,28 +1,29 @@
 import React from 'react';
 import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
 
-const Navlinks = [
+export const Navlinks = [
     {
         id: 1,
         name: "HOME",
-        link: "/#",
+        link: "/",
     },
     {
         id: 2,
         name: "CARS",
-        link: "/#cars",
+        link: "/cars",
     },
     {
-        id: 1,
+        id: 3,
         name: "ABOUT",
-        link: "/#about",
+        link: "/about",
     },
     {
-        id: 1,
+        id: 4,
         name: "BOOKING",
-        link: "/#booking",
+        link: "/booking",
     },
 ];
+
 const Navbar = ({ theme, setTheme }) => {
     return (
         <nav className='shadow-md bg-white dark:bg-dark dark:text-white duration-300'>
@@ -34,7 +35,7 @@ const Navbar = ({ theme, setTheme }) => {
                     <div className='hidden md:block'>
                         <ul className='flex items-center gap-8'>
                             {Navlinks.map(({ id, name, link }) => (
-                                <li key={id} className="py-2">
+                                <li key={id} className="py-4">
                                     <a
                                         href={link}
                                         className=" text-lg font-medium  hover:text-primary py-2 hover:border-b-2 hover:border-primary transition-colors duration-500  "

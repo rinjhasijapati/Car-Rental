@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Contact = () => {
-  return (
+    return (
     <>
       <span id="contact"></span>
       <div data-aos='zoom-in' className='dark:bg-black dark:text-white py-14'>
@@ -17,9 +17,9 @@ const Contact = () => {
               </p>
             </div>
             <div className='sm:grid sm:place-items-center'>
-              <a 
-                href="#"
-                className='inline-block font-semibold py-2 px-6 bg-primary text-white hover:bg-primary/80 duration-200 tracking-widest uppercase'
+            <a
+                href="/ContactPage"
+                className="inline-block font-semibold py-2 px-6 bg-primary text-white hover:bg-primary/80 duration-200 tracking-widest uppercase "
               >
                 Contact
               </a>

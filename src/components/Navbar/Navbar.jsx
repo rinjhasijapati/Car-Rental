@@ -1,5 +1,6 @@
 import React from 'react';
 import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
+import icon from '../../assets/carRental.png';
 
 export const Navlinks = [
     {
@@ -26,11 +27,11 @@ export const Navlinks = [
 
 const Navbar = ({ theme, setTheme }) => {
     return (
-        <nav className='shadow-md bg-white dark:bg-dark dark:text-white duration-300'>
+        <nav className='shadow-md bg-white dark:bg-dark dark:text-white duration-300 h-[60px]'>
             <div className='container md:py-0'>
                 <div className='flex justify-between items-center'>
                     <div>
-                        <h1 className='text-3xl font-bold font-serif'>Car Rental</h1>
+                        <img src={icon} alt='Car Rental Icon' className='h-[40px] w-[250px]' />
                     </div>
                     <div className='hidden md:block'>
                         <ul className='flex items-center gap-8'>

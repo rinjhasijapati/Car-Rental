@@ -6,19 +6,19 @@ import car3 from "../../assets/car6.png";
 const carList = [
   {
     name: "BMW UX",
-    price: 100,
+    price: 10000,
     image: whiteCar,
     aosDelay: "0",
   },
   {
     name: "KIA UX",
-    price: 140,
+    price: 14000,
     image: car2,
     aosDelay: "500",
   },
   {
     name: "BMW UX",
-    price: 100,
+    price: 10000,
     image: car3,
     aosDelay: "1000",
   },
@@ -59,7 +59,7 @@ const CarList = () => {
                 <div className='space-y-2'>
                   <h1 className='text-primary font-semibold'>{data.name}</h1>
                   <div className='flex justify-between items-center text-xl font-semibold'>
-                    <p>${data.price}/Day</p>
+                    <p>Rs.{data.price}/Day</p>
                     <a href="#">Details</a>
                   </div>
                 </div>
